@@ -1,0 +1,58 @@
+/* Books.css */
+
+/* Container for all books */
+.books-container {
+  padding-left: 70px;
+  padding-right: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 50px;
+  justify-content: space-between;
+  text-align: center;
+}
+
+/* Individual book card */
+.book-card {
+  width: calc(33.33% - 20px); /* Adjust width to fit three cards in a row */
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.book-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Image */
+.imgtag {
+  display: flex;
+  justify-content: center;
+}
+
+.artimg {
+  width: 90%;
+  height: 400px;
+}
+
+/* Book details */
+p {
+  margin: 5px 0;
+}
+
+/* Add to Cart button */
+button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

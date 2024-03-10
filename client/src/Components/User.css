@@ -1,0 +1,16 @@
+/* RecommendedBooks.css */
+.book-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .book-list li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .book-list li::before {
+    content: "📚 ";
+    margin-right: 5px;
+  }
+  
